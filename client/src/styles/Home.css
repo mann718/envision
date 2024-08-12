@@ -1,0 +1,143 @@
+
+
+/* .home-container {
+    background-color: #1a365d;
+    min-height: 100vh;
+  } */
+ 
+/* 
+
+  .white-box {
+    background-color: white;
+    background-image: url('../component/N.png');
+    background-size: contain;;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px; 
+    
+    margin: 10px 0; 
+    
+  }
+
+ .color-box {
+    background-color:#1a365d ;
+    width: 100%;
+    height:400px;
+    border-top: 6px solid #3a5c8b; 
+    
+    display: flex;
+   
+   
+ }
+
+ .color-box2 {
+    background-color:#1a365d ;
+    width: 100%;
+    height:350px;
+    
+    border-bottom: 6px solid #3a5c8b; 
+ }
+
+ .child1{
+    height: 100%;
+    width:50%;
+    color: White;
+   
+    margin-right: 250px;
+ }
+
+ .child2{
+    align-items: center;
+    
+ }
+
+ .headercontent{
+    margin-top: 100px;
+    color:white;
+    font-family: 'Antic';
+    font-size: 20px ;
+ }  */
+
+
+ .white-box {
+    background-color: white;
+    background-image: url('../component/N.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px; /* Adjust height as needed */
+    margin: 10px 0; /* Adjust the margin as needed */
+    position: relative; /* Needed for absolutely positioned elements */
+  }
+  
+  .clickable-area {
+    position: absolute;
+    top: 20%; /* Adjust these values based on the position of the clickable area */
+    left: 55%; /* Adjust these values based on the position of the clickable area */
+    width: 220px; /* Set the width of the clickable area */
+    height: 220px; /* Set the height of the clickable area */
+    cursor: pointer; /* Changes the cursor to a pointer when hovering over the area */
+    /* Optional: add a semi-transparent background for visibility */
+    /* background-color: rgba(237, 103, 103, 0.3); */
+    border-radius: 50%;
+    margin-top: 150px;
+  }
+  
+  .color-box {
+    background-color: #1a365d;
+    width: 100%;
+    height: 400px;
+    border-top: 6px solid #3a5c8b; /* Top border */
+    display: flex;
+  }
+  
+  .child1 {
+    height: 50%;
+    width: 20%;
+    color: white;
+    margin-right: 250px;
+
+    
+  }
+  
+ .image{
+    height: 390px;
+    width: 400px;
+    margin-bottom:200px;
+    margin-left: 50px;
+ }
+  
+  .child2 {
+    align-items: center;
+  }
+  
+  .child3 {
+    height: 50%;
+    width: 20%;
+    color: white;
+    margin-right: 250px;
+    
+  }
+
+
+  
+  .child4 {
+    align-items: center;
+  }
+
+  .image2{
+    height: 350px;
+    width: 350px;
+    margin-bottom:150px;
+    margin-left: 50px;
+ }
+  
+  .headercontent {
+    margin-top: 60px;
+    color: white;
+    font-family: 'Antic';
+    font-size: 20px;
+  }
+  

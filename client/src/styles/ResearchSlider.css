@@ -1,0 +1,120 @@
+/* .card-slider {
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    width: 80%;
+    margin: auto;
+  }
+  
+  .slider-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+  }
+  
+  .card {
+    min-width: calc(100% - 20px); 
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    opacity: 0.5;
+    margin-right: 20px; 
+    transition: opacity 0.5s ease;
+  }
+  
+  .card.active {
+    opacity: 1;
+  }
+  
+  .slider-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .slider-button.prev {
+    left: 10px;
+  }
+  
+  .slider-button.next {
+    right: 10px;
+  }
+*/
+
+
+.card-slider {
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin: auto;
+   margin-right: 20px;
+  }
+  
+  .slider-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: calc(100% + 20px); /* Add extra width to account for the gap */
+    height: 300px;
+  }
+  
+  .card {
+    min-width: calc(100% - 20px); /* Adjust width to account for the gap */
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    opacity: 0.5;
+    margin-right: 20px; /* Gap between cards */
+    transition: transform 0.3s ease, opacity 0.5s ease, margin-right 0.5s ease; /* Smooth transition for transform, opacity, and margin */
+    transform: scale(1); /* Default scale */
+    width: 480px;
+    font-family: 'Antic';
+    margin-left: 20px;
+  }
+  
+  .card.active {
+    opacity: 1;
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Scale up on hover */
+  }
+  
+  .slider-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: background-color 0.3s ease; /* Smooth transition for button color */
+  }
+  
+  .slider-button.prev {
+    left: 10px;
+  }
+  
+  .slider-button.next {
+    right: 20px;
+
+  }
+  

@@ -36,3 +36,44 @@
     transform: rotate(360deg);
   }
 }
+
+
+.page-enter {
+  position: absolute;
+  width: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.page-enter-right {
+  transform: translateX(100%);
+}
+
+.page-enter-left {
+  transform: translateX(-100%);
+}
+
+.page-enter-active {
+  transform: translateX(0);
+}
+
+.page-exit {
+  position: absolute;
+  width: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.page-exit-right {
+  transform: translateX(0);
+}
+
+.page-exit-left {
+  transform: translateX(0);
+}
+
+.page-exit-active-right {
+  transform: translateX(-100%);
+}
+
+.page-exit-active-left {
+  transform: translateX(100%);
+}
